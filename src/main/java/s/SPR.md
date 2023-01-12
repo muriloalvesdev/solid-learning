@@ -8,7 +8,7 @@ ________________________________________
 ser 'especializada' em apenas um único assunto e possuir apenas uma responsabilidade dentro das nossas
 aplicacões."
 
-[Exemplo de uma classe com mais de uma responsabilidade]()
+[Exemplo de uma classe com mais de uma responsabilidade](https://github.com/muriloalvesdev/solid-learning/blob/main/src/main/java/s/Incorret.java)
 A classe Incorrect.java citada acima contém mais de uma responsabilidade. 
 Ela é responsável por realizar busca, criacao e delecao de pedidos e usuarios, e como vimos, 
 isso vai contra o *princípio de responsabilidade única*.
@@ -17,6 +17,6 @@ isso vai contra o *princípio de responsabilidade única*.
   - OrderService: essa classe agora contém uma responsabilidade, manipular informacoes referente a pedidos.
   - OrderRepository: essa classe tem a responsabilidade de ser o intermediador entre a camada de servico e a base de dados dos pedidos.
 
-O mesmo vale para as classes referente ao usuário.
+O mesmo vale para as [classes referente ao usuário](https://github.com/muriloalvesdev/solid-learning/tree/main/src/main/java/s/user).
 
 Devemos nos atentar também que SRP não se limita só a classes, podemos utilizá-lo também em métodos/funcões.
