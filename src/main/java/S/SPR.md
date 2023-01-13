@@ -8,7 +8,7 @@ ________________________________________
 ser 'especializada' em apenas um único assunto e possuir apenas uma responsabilidade dentro das nossas
 aplicacões."
 
-[Exemplo de uma classe com mais de uma responsabilidade](https://github.com/muriloalvesdev/solid-learning/blob/main/src/main/java/s/Incorret.java)
+[Exemplo de uma classe com mais de uma responsabilidade](https://github.com/muriloalvesdev/solid-learning/blob/main/src/main/java/S/Incorrect.java)
 A classe `Incorrect.java` citada acima contém mais de uma responsabilidade. 
 Ela é responsável por realizar busca, criacao e delecao de pedidos e usuarios, e como vimos, 
 isso vai contra o *princípio de responsabilidade única*.
