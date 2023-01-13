@@ -17,7 +17,7 @@ isso vai contra o *princípio de responsabilidade única*.
   - OrderService: essa classe agora contém uma responsabilidade, manipular informacoes referente a pedidos.
   - OrderRepository: essa classe tem a responsabilidade de ser o intermediador entre a camada de servico e a base de dados dos pedidos.
 
-O mesmo vale para as [classes referente ao usuário](https://github.com/muriloalvesdev/solid-learning/tree/main/src/main/java/s/user).
+O mesmo vale para as [classes referente ao usuário](https://github.com/muriloalvesdev/solid-learning/tree/main/src/main/java/S/user).
 
 Devemos nos atentar também que SRP não se limita só a classes, podemos utilizá-lo também em métodos/funcões. 
 Apenas aplicando esse princípio os seus códigos já estarão mais limpo e de fácil manutencão.
