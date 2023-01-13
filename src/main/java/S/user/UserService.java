@@ -1,6 +1,3 @@
-package s.user;
-
-
 class UserService {
 
     private final UserRepository repository;
@@ -9,16 +6,16 @@ class UserService {
         this.repository = repository
     }
 
-    public void save(User user) {
-        repository.save(user)
+    public void salvar(User user) {
+        repository.salvar(user)
     }
 
-    public void delete(String id) {
-        repository.delete(id)
+    public void deletar(String id) {
+        repository.deletar(id)
     }
 
-    public void find(String id) {
-        repository.delete(id)
+    public void buscar(String id) {
+        repository.buscar(id)
     }
 
 }

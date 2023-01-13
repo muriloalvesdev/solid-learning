@@ -1,16 +1,14 @@
-package s.user;
-
 class UserRepository {
 
-    public void save(User user) {
+    public void salvar(User user) {
         // impl
     }
 
-    public void delete(String id) {
+    public void deletar(String id) {
         // impl
     }
 
-    public void find(String id) {
+    public void buscar(String id) {
         // impl
     }
 

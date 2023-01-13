@@ -1,28 +1,25 @@
-package s;
-
-
 class Incorret {
-    public void saveUser() {
+    public void salvarUsuario() {
         //impl
     }
 
-    public void deleteUser() {
+    public void deletarUsuario() {
         //impl
     }
 
-    public void findUser() {
+    public void buscarUsuario() {
         //impl
     }
 
-    public void saveOrder() {
+    public void salvarPedido() {
         //impl
     }
 
-    public void deleteOrder() {
+    public void deletarPedido() {
         //impl
     }
 
-    public void findOrder() {
+    public void buscarPedido() {
         //impl
     }
 }

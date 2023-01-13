@@ -1,5 +1,5 @@
 ________________________________________
-## Single Responsability Principle
+## [Single Responsability Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
 ________________________________________
 ## Princípio da Responsabilidade Única
 ________________________________________
@@ -9,7 +9,7 @@ ser 'especializada' em apenas um único assunto e possuir apenas uma responsabil
 aplicacões."
 
 [Exemplo de uma classe com mais de uma responsabilidade](https://github.com/muriloalvesdev/solid-learning/blob/main/src/main/java/s/Incorret.java)
-A classe Incorrect.java citada acima contém mais de uma responsabilidade. 
+A classe `Incorrect.java` citada acima contém mais de uma responsabilidade. 
 Ela é responsável por realizar busca, criacao e delecao de pedidos e usuarios, e como vimos, 
 isso vai contra o *princípio de responsabilidade única*.
 
@@ -19,4 +19,5 @@ isso vai contra o *princípio de responsabilidade única*.
 
 O mesmo vale para as [classes referente ao usuário](https://github.com/muriloalvesdev/solid-learning/tree/main/src/main/java/s/user).
 
-Devemos nos atentar também que SRP não se limita só a classes, podemos utilizá-lo também em métodos/funcões.
+Devemos nos atentar também que SRP não se limita só a classes, podemos utilizá-lo também em métodos/funcões. 
+Apenas aplicando esse princípio os seus códigos já estarão mais limpo e de fácil manutencão.

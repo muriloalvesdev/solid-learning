@@ -1,5 +1,3 @@
-package s.order;
-
 class OrderRepository {
 
     public void save(Order order) {
