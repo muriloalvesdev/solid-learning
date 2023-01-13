@@ -9,7 +9,7 @@ Este príncipio nos diz que objetos ou entidades devem estar abertos para estens
 "Entidades de software devem ser abertas para extensão, mas fechadas para modificação, isto é, 
 a entidade pode permitir que o seu comportamento seja estendido sem modificar seu código-fonte."
 
-Dessa vez, a Incorrect.java contém uma implementacão comum que vemos no nosso dia a dia (vai dizer que não? rs)
+Dessa vez, a [Incorrect.java](https://github.com/muriloalvesdev/solid-learning/blob/main/src/main/java/O/Incorrect.java) contém uma implementacão comum que vemos no nosso dia a dia (vai dizer que não? rs)
 Basicamente calculamos o bônus a ser recebido pelos funcionários a partir do tipo do contrato do mesmo.
 
 E se surgirem mais tipos de contratacões? Adicionar outro IF pode estar nos seus planos, mas estaríamos modificando a classe, e isso
@@ -18,7 +18,7 @@ acaba quebrando o princípio `aberto/fechado`.
 Alterar uma classe já existente para implementar um novo comportamento acaba que podemos 
 estar modificando algo que não deveria ser modificado. (quem nunca?)
 
-[Vamos a solucão]()
+[Vamos a solucão](https://github.com/muriloalvesdev/solid-learning/blob/main/src/main/java/O/bonus/Correct.java)
 
 Agora qualquer tipo de contrato que venha a existir terá que implementar a interface `Bonus` 
 e ter a sua própria implementacão do cálculo a partir da interface.
