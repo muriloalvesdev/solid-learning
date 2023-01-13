@@ -8,7 +8,7 @@ ________________________________________
  Se seguirmos o LSP temos como consequência aumento na confianca da utilizacão do polimorfismo e também
  na utilizacão de classes derivadas referindo-se as classes base sem medo de ter um resultado inesperado.
  
-A classe [Incorrect.java]() dessa vez não está totalmente errada, um dos exemplos está correto. 
+A classe [Incorrect.java](https://github.com/muriloalvesdev/solid-learning/blob/main/src/main/java/L/Incorrect.java) dessa vez não está totalmente errada, um dos exemplos está correto. 
 Vamos entender:
 
 O seguinte código:
